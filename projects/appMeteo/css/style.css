@@ -1,0 +1,87 @@
+body {
+    background-position: center;
+    background-size:  cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+main {
+    align-items: center;
+    color: #FFF;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 3em; 
+}
+
+#ville {
+    padding: 10px;
+}
+
+i.wi {
+    font-size:5em;
+    line-height: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1:hover .tooltip{
+    opacity: 1;
+}
+
+.tooltip {
+    background-color: #222;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 12px;
+    opacity: 0;
+    padding: 10px;
+    transition: opacity .3s, top .10s;
+}
+
+
+/* bg des différentes températures: */
+
+.clear {
+    background-image: url("../bg/sunny.jpg") ;
+}
+
+.clouds {
+    background-image: url("../bg/cloudy.png");
+}
+
+.rain {
+    background-image: url("../bg/rainy.jpg");
+}
+
+.snow {
+    background-image: url("../bg/snowy.jpg");
+}
+
+.mist {
+    background-image: url("../bg/misty.jpg");
+}
+
+footer {
+    background: rgba(181, 187, 186, 0.5);
+    background-size: cover;
+    border: #000;
+    border-width: 2px;;
+    color: #000;
+    font-style: italic;
+    padding: 5px;
+}
+
+a {
+    color: #000;
+    font-weight: bold;
+}
