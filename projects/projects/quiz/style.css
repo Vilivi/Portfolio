@@ -1,0 +1,49 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    background-image: url('\img\europeanMap.jpg');
+    
+    background-size: cover;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8);
+}
+
+main {
+    margin: auto 5%;
+}
+
+#score {
+    font-size: 2em;
+    padding: 20px;
+}
+
+#question {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#question label {
+    padding: 10px;
+    margin: 20px;
+}
+
+#country {
+    font-size: 3em;
+}
+
+#answers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20%;
+    text-align: center;
+    
+}
+
+button {
+    background-color: azure;
+    border-color: darkgrey;
+    border-radius: 12%;
+    float: right;
+    margin-top: 50px;
+}

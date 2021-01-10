@@ -1,0 +1,33 @@
+body {
+  background: #E5E3BD;
+  margin: auto;
+  width: 80%;
+  font-size: 1.6em;
+  font-family: 'Imbue', serif; }
+
+header {
+  text-align: center;
+  padding: 100px;
+  font-size: 1.8em; }
+  header h1 {
+    font-style: italic; }
+
+form {
+  background-color: #FFFEFE;
+  margin: auto 20%;
+  padding: 10% 8%;
+  border: 3px solid #6B6271; }
+  form div {
+    padding: 20px auto; }
+    form div input {
+      padding: 5px; }
+  form #button {
+    float: right;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #388EA2;
+    border: 1px solid #6B6271;
+    border-radius: 5%; }
+
+/*# sourceMappingURL=style.css.map */

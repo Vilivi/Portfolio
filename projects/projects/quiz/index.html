@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Pays/Capitale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: url('img/europeanMap.jpg'); background-size: cover;">
+    <main>
+        <header>
+            Score: <span id="score">0</span><span id="result"></span>
+        </header>
+        <form action="" id="form">
+            <div id="question">
+                <label for="capitale">Révise tes capitales européennes en anglais en trouvant celle du pays ci-dessous:</label>
+                <label for="country" id="country"></label>
+            </div>
+            <div id="answers">
+                <input type="radio" name="capitale" id="aInput"> <label for="aInput" id="a"></label>
+                <input type="radio" name="capitale" id="bInput"> <label for="bInput" id="b"></label>
+                <input type="radio" name="capitale" id="cInput"> <label for="cInput" id="c"></label>
+                <input type="radio" name="capitale" id="dInput"> <label for="dInput" id="d"></label>
+            </div>
+            <button type="submit" id="button">Envoyer</button>
+        </form>
+    </main>
+</body>
+    <script src="app.js"></script>
+</html>

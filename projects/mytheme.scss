@@ -1,0 +1,97 @@
+                   /* Général */
+
+$couleur-primaire: #bb252b;
+$couleur-secondaire:#b4b4b4;
+$couleur-tertiaire: #ffd31d;
+$couleur-fond: #f6eedf;
+
+$theme-colors: (
+  "primary": $couleur-primaire,
+  "secondary": $couleur-secondaire,
+  "tertiary": $couleur-tertiaire,
+  "light": $couleur-fond
+);
+
+body {
+  font-family: 'PT Serif', serif !important;
+}
+
+p, h5, #virginie h2 {
+  font-style: italic;
+  font-family: 'PT Serif';
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Anton', sans-serif;
+}
+
+$font-weight-bold: 700;
+$font-size: 1.2rem;
+$h2-font-size:                $font-size * 2;
+$h3-font-size:                $font-size * 1.8;
+$h5-font-size:                $font-size * 1.8;
+header nav div ul li a {
+  font-size: $font-size * 1.2;
+  font-weight: $font-weight-bold;
+  font-style: italic;
+}
+
+                      /* Navbar */
+#logo {
+  max-width: 12%;
+}
+
+#border-width {
+  border: 3px solid $couleur-secondaire;
+}
+
+$navbar-brand-font-size:            $font-size * 2;
+$navbar-dark-brand-color: $couleur-primaire;
+$navbar-dark-brand-hover-color: $couleur-secondaire;
+
+                      /* Carousel */
+
+.caption-carousel {
+    position: absolute;
+    bottom: 50%;
+    font-weight: bold;
+    left: 0%;
+    right:0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: $couleur-primaire;
+    text-align: center;
+}
+
+$box-shadow-sm:               0 .125rem .25rem rgba(white, .075);
+$box-shadow:                  0 .5rem 1rem rgba(white, .15);
+$box-shadow-lg:               0 1rem 3rem rgba(white, .175);
+
+
+#virginie {
+    color: white;
+    position: absolute;
+    left: 24%;
+}
+#mojo {
+  position: absolute;
+  top: 10%;
+}
+
+#work {
+    color: white;
+    position: absolute;
+    left: 35%;
+}
+
+$carousel-caption-color: $couleur-primaire;
+
+      /* Projets*/
+.title-figcaption {
+  font-weight: bolder;
+  text-shadow: 1px 1px 1px #000;
+}
+
+  
+@import "scss/bootstrap.scss";
